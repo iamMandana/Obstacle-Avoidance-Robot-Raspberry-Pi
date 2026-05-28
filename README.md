@@ -74,5 +74,6 @@ pip3 install RPi.GPIO
 | Backward | 9 |
 
 | Motor B | GPIO Pin |
+|-----------|------|
 | Forward | 8 |
 | Backward | 7 |
