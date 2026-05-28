@@ -53,3 +53,24 @@ git clone https://github.com/yourusername/pirobot-ros2-obstacle-avoidance.git
 cd ~/ros2_ws
 colcon build --packages-select pirobot
 source install/setup.bash
+
+## Install Dependencies
+
+```bash
+sudo apt update
+sudo apt install python3-pip
+pip3 install numpy
+pip3 install RPi.GPIO
+
+## Hardware Wiring Diagram
+
+### Motor Connections (GPIO Pins)
+
+| Motor A | GPIO Pin |
+|-----------|------|
+| Forward | 10 |
+| Backward | 9 |
+
+| Motor B | GPIO Pin |
+| Forward | 8 |
+| Backward | 7 |
