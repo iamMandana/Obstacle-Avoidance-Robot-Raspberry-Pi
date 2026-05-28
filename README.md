@@ -36,7 +36,7 @@ This project implements an **Autonomous Mobile Robot (AMR)** capable of detectin
 | Chassis | Structural frame |
 
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 
